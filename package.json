@@ -1,0 +1,23 @@
+{
+  "name": "latintojawa.js",
+  "version": "1.0.0",
+  "description": "Transliterator Latin to Jawa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junwatu/latintojawa.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junwatu/latintojawa.js/issues"
+  },
+  "homepage": "https://github.com/junwatu/latintojawa.js#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
