@@ -2,8 +2,10 @@
   "name": "aksara.js",
   "version": "1.0.0",
   "description": "Transliterator Latin to Javanese Aksara or Javanese Aksara to Latin",
-  "main": "index.js",
-  "type":"module",
+  "main": "dist/aksara.cjs.js",
+  "module": "dist/aksara.esm.js",
+  "browser": "dist/aksara.umd.js",
+  "type": "module",
   "scripts": {
     "test": "npx jest"
   },
@@ -11,7 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/junwatu/aksara.js.git"
   },
-  "keywords": ["aksara","javanese","hanacaraka", "aksara jawa", "transliterator"],
+  "keywords": [
+    "aksara",
+    "javanese",
+    "hanacaraka",
+    "aksara jawa",
+    "transliterator"
+  ],
   "author": "Equan Pr.",
   "license": "MIT",
   "bugs": {
@@ -19,6 +27,14 @@
   },
   "homepage": "https://github.com/junwatu/aksara.js#readme",
   "devDependencies": {
-    "jest": "^26.0.1"
+    "@babel/core": "7.10.2",
+    "@babel/preset-env": "7.10.2",
+    "@rollup/plugin-babel": "^5.0.3",
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "26.0.1",
+    "jest": "^26.0.1",
+    "rollup": "^2.15.0"
   }
 }
