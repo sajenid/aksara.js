@@ -14,9 +14,21 @@ Tujuan dibuatnya pustaka ini transliterator supaya bisa lebih mudah untuk diguna
 
 ## API
 
+Alih bahasa dari Latin ke Aksara Jawa.
 ```
 LatinKeAksara(latin_string)
 ```
+Aliases
+
+```
+LatinToAksara(latin_string)
+```
+
+```
+DoTransliterate(latin_string)
+```
+
+6
 
 ---
 MIT © 2020, Equan Pr.
