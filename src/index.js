@@ -30,7 +30,7 @@ trim string, menemukan karakter di dalam string
 ****************************/
 function SuperTrim(str) {
     str = str || '';
-    ret = str.replace(/^\s*|\s*$/g,'').replace(/\s+/g,' ');
+    let ret = str.replace(/^\s*|\s*$/g,'').replace(/\s+/g,' ');
     return ret;
 }
 function findstr(str,tofind){
@@ -610,7 +610,7 @@ function GetCoreSound(str) {
     }
 }
 function GetSpecialSound(str) {
-    specialsoundMap = { "f":"ꦥ꦳꧀", "v":"ꦮ꦳꧀", "z":"ꦗ꦳꧀", "ś":"ꦯ", "q":"꧀"/*pangkon*/ }
+    let specialsoundMap = { "f":"ꦥ꦳꧀", "v":"ꦮ꦳꧀", "z":"ꦗ꦳꧀", "ś":"ꦯ", "q":"꧀"/*pangkon*/ }
     if(specialsoundMap[str]!==undefined){
         return specialsoundMap[str];
     }
