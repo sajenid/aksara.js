@@ -1,5 +1,5 @@
 <h2 align="center">
-  <p align="center"><i>aksara.js<i></p>
+  <p align="center"><i>aksara.js</i></p>
   <!--
   <p align="center"><img src="" width="80%" alt="aksarajs"></p>
   -->
@@ -12,10 +12,10 @@ Pustaka untuk alih bahasa (*transliterate*) dari Latin ke Aksara Jawa dan sebali
 
 Tujuan dibuatnya pustaka ini transliterator supaya bisa lebih mudah untuk digunakan oleh pengembang lain dalam membuat aplikasi-aplikasi yang berhubungan dengan Aksara Jawa.
 
-## Fungsi Utama
+## API
 
 ```
-LatinKeAksara(string)
+LatinKeAksara(latin_string)
 ```
 
 ---
