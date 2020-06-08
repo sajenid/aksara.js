@@ -1,10 +1,8 @@
 # aksara.js
 
-Transliterator Latin to Jawa dan sebaliknya.
+Transliterator dari Latin ke Aksara Jawa dan sebaliknya.
 
 Pustaka ini berdasarkan projek mengagumkan dari [Transliterasi Jawa](https://bennylin.github.com/transliterasijawa). 🙏
 
 ---
-Equan Pr.
-
-2020
+MIT (c) 2020, Equan Pr.
