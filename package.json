@@ -1,7 +1,7 @@
 {
-  "name": "latintojawa.js",
+  "name": "aksara.js",
   "version": "1.0.0",
-  "description": "Transliterator Latin to Jawa",
+  "description": "Transliterator Latin to Javanese Aksara and Javanese Aksar",
   "main": "index.js",
   "type":"module",
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/junwatu/latintojawa.js.git"
+    "url": "git+https://github.com/junwatu/aksara.js.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/junwatu/latintojawa.js/issues"
+    "url": "https://github.com/junwatu/aksara.js/issues"
   },
-  "homepage": "https://github.com/junwatu/latintojawa.js#readme",
+  "homepage": "https://github.com/junwatu/aksara.js#readme",
   "devDependencies": {
     "jest": "^26.0.1"
   }
