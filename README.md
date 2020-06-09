@@ -15,22 +15,22 @@ Tujuan dibuatnya pustaka ini transliterator supaya bisa lebih mudah untuk diguna
 ## API
 
 Alih bahasa dari Latin ke Aksara Jawa.
-```
+```javascript
 LatinKeAksara(latin_string)
 ```
 Aliases
 
-```
+```javascript
 LatinToAksara(latin_string)
 ```
 
-```
+```javascript
 DoTransliterate(latin_string)
 ```
 
 ## Pemakaian
 
-```
+```javascript
 import { LatinKeAksara } from 'aksara'
 
 let wada = LatinKeAksara('Nulisa Aksara Jawa');
