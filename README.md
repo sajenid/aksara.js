@@ -28,7 +28,14 @@ LatinToAksara(latin_string)
 DoTransliterate(latin_string)
 ```
 
-6
+## Pemakaian
 
+```
+import { LatinKeAksara } from 'aksara'
+
+let wada = LatinKeAksara('Nulisa Aksara Jawa');
+
+console.log(wada); // ꦤꦸꦭꦶꦱ​ꦄꦏ꧀ꦱꦫ​ꦗꦮ
+```
 ---
 MIT © 2020, Equan Pr.
