@@ -10,7 +10,7 @@ Pustaka untuk alih bahasa (*transliterate*) dari Latin ke Aksara Jawa dan sebali
 
 > Source code dari pustaka ini berdasarkan projek mengagumkan dari [Transliterasi Jawa](https://bennylin.github.com/transliterasijawa)
 
-Tujuan dibuatnya pustaka ini transliterator supaya bisa lebih mudah untuk digunakan oleh pengembang lain dalam membuat aplikasi-aplikasi yang berhubungan dengan Aksara Jawa.
+Tujuan dibuatnya pustaka ini transliterator supaya bisa lebih mudah untuk digunakan oleh pengembang lain dalam membuat aplikasi-aplikasi yang berhubungan dengan alih bahasa Aksara Jawa.
 
 ## API
 
