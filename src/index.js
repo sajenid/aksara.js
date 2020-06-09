@@ -1210,4 +1210,4 @@ function LatinKeAksara(str) {
   return SuperTrim(ret);
 }
 
-module.exports = { DoTransliterate: LatinKeAksara, LatinKeAksara, LatinToAksara: LatinKeAksara };
+export { LatinKeAksara as DoTransliterate, LatinKeAksara, LatinKeAksara as LatinToAksara};
