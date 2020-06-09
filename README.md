@@ -5,7 +5,6 @@
   -->
 </h2>
 
-
 Pustaka untuk alih bahasa (*transliterate*) dari Latin ke Aksara Jawa dan sebaliknya dari Aksara Jawa ke Latin.
 
 > Source code dari pustaka ini berdasarkan projek mengagumkan dari [Transliterasi Jawa](https://bennylin.github.com/transliterasijawa)
@@ -15,9 +14,11 @@ Tujuan dibuatnya pustaka ini transliterator supaya bisa lebih mudah untuk diguna
 ## API
 
 Alih bahasa dari Latin ke Aksara Jawa.
+
 ```javascript
 LatinKeAksara(latin_string)
 ```
+
 Aliases
 
 ```javascript
@@ -37,5 +38,6 @@ let wada = LatinKeAksara('Nulisa Aksara Jawa');
 
 console.log(wada); // ꦤꦸꦭꦶꦱ​ꦄꦏ꧀ꦱꦫ​ꦗꦮ
 ```
+
 ---
 MIT © 2020, Equan Pr.
