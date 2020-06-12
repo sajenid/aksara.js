@@ -24,9 +24,9 @@
   "author": "Equan Pr.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/junwatu/aksara.js/issues"
+    "url": "https://github.com/sajenid/aksara.js/issues"
   },
-  "homepage": "https://github.com/junwatu/aksara.js#readme",
+  "homepage": "https://github.com/sajenid/aksara.js#readme",
   "devDependencies": {
     "@babel/core": "7.10.2",
     "@babel/preset-env": "7.10.2",
@@ -37,5 +37,6 @@
     "babel-jest": "26.0.1",
     "jest": "^26.0.1",
     "rollup": "^2.15.0"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
