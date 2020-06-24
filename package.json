@@ -1,5 +1,5 @@
 {
-  "name": "aksara.js",
+  "name": "@sajenid/aksara.js",
   "version": "1.0.0-beta",
   "description": "Transliterator Latin to Javanese Aksara or Javanese Aksara to Latin",
   "main": "dist/aksara.cjs.js",
