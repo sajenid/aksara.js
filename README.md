@@ -32,7 +32,7 @@ DoTransliterate(latin_string)
 ## Pemakaian
 
 ```javascript
-import { LatinKeAksara } from 'aksara'
+import { LatinKeAksara } from '@sajenid/aksara.js'
 
 let wada = LatinKeAksara('Nulisa Aksara Jawa');
 
