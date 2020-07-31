@@ -44,4 +44,4 @@ console.log(wada); // ꦤꦸꦭꦶꦱ​ꦄꦏ꧀ꦱꦫ​ꦗꦮ
 [README.md (Carakan)](https://aksarajs.netlify.app/)
 
 ---
-MIT © 2020, Equan Pr.
+MIT © 2020, Sajen.id
