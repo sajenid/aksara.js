@@ -39,5 +39,9 @@ let wada = LatinKeAksara('Nulisa Aksara Jawa');
 console.log(wada); // ꦤꦸꦭꦶꦱ​ꦄꦏ꧀ꦱꦫ​ꦗꦮ
 ```
 
+## Contoh
+
+[README.md (Carakan)](https://aksarajs.netlify.app/)
+
 ---
 MIT © 2020, Equan Pr.
