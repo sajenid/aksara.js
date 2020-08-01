@@ -11,6 +11,12 @@ Pustaka untuk alih bahasa (*transliterate*) dari Latin ke Aksara Jawa dan sebali
 
 Tujuan dibuatnya pustaka ini transliterator supaya bisa lebih mudah untuk digunakan oleh pengembang lain dalam membuat aplikasi-aplikasi yang berhubungan dengan alih bahasa Aksara Jawa.
 
+## Instalasi
+
+```
+npm install @sajenid/aksara.js --registry https://npm.pkg.github.com/
+```
+
 ## API
 
 Alih bahasa dari Latin ke Aksara Jawa.
