@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+<h2 align="center">
+  <p align="center"><i>aksara.js</i></p>
+  <!--
+  <p align="center"><img src="" width="80%" alt="aksarajs"></p>
+  -->
+</h2>
 
-You can use the [editor on GitHub](https://github.com/sajenid/aksara.js/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Pustaka untuk alih bahasa (*transliterate*) dari Latin ke Aksara Jawa dan sebaliknya dari Aksara Jawa ke Latin.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> Source code dari pustaka ini berdasarkan projek mengagumkan dari [Transliterasi Jawa](https://bennylin.github.com/transliterasijawa)
 
-### Markdown
+Tujuan dibuatnya pustaka ini transliterator supaya bisa lebih mudah untuk digunakan oleh pengembang lain dalam membuat aplikasi-aplikasi yang berhubungan dengan alih bahasa Aksara Jawa.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Instalasi
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+npm install @sajenid/aksara.js --registry https://npm.pkg.github.com/
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## API
 
-### Jekyll Themes
+Alih bahasa dari Latin ke Aksara Jawa.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sajenid/aksara.js/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```javascript
+LatinKeAksara(latin_string)
+```
 
-### Support or Contact
+Aliases
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```javascript
+LatinToAksara(latin_string)
+```
+
+```javascript
+DoTransliterate(latin_string)
+```
+
+## Pemakaian
+
+```javascript
+import { LatinKeAksara } from '@sajenid/aksara.js'
+
+let wada = LatinKeAksara('Nulisa Aksara Jawa');
+
+console.log(wada); // ꦤꦸꦭꦶꦱ​ꦄꦏ꧀ꦱꦫ​ꦗꦮ
+```
+
+## Contoh
+
+[README.md (Carakan)](https://aksarajs.netlify.app/)
+
+---
+MIT © 2020, Sajen.id
