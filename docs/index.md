@@ -50,4 +50,4 @@ console.log(wada); // ꦤꦸꦭꦶꦱ​ꦄꦏ꧀ꦱꦫ​ꦗꦮ
 [README.md (Carakan)](https://aksarajs.netlify.app/)
 
 ---
-MIT © 2020, Sajen.id
+MIT © 2020, [Sajen.id](https://sajen.id)
