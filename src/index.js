@@ -167,7 +167,8 @@ function GetMatra(str) {
     uu: "ꦹ",
   };
   var matramap, mode;
-  var modeTranslit = document.getElementsByName("mode");
+  var modeTranslit = "";
+  //var modeTranslit = document.getElementsByName("mode");
   for (var rad in modeTranslit) {
     if (modeTranslit[rad].checked) mode = modeTranslit[rad].value;
   }
@@ -738,7 +739,8 @@ function GetCoreSound(str) {
     ṛ: "ꦽ",
   };
   var consonantMap, murda;
-  var modeMurda = document.getElementsByName("murda");
+  var modeMurda = "";
+  //var modeMurda = document.getElementsByName("murda");
   for (var rad in modeMurda) {
     if (modeMurda[rad].checked) murda = modeMurda[rad].value;
   }
@@ -1135,7 +1137,8 @@ function LatinKeAksara(str) {
       }
       if (str[i] == " ") {
         var spasi, modeSpasi;
-        var pakaiSpasi = document.getElementsByName("spasi");
+        var pakaiSpasi = "";
+        //var pakaiSpasi = document.getElementsByName("spasi");
         for (var rad in pakaiSpasi) {
           if (pakaiSpasi[rad].checked) modeSpasi = pakaiSpasi[rad].value;
         }
