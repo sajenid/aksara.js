@@ -2,7 +2,7 @@
  * Testing Script
  */
 
-import { LatinKeAksara } from '../dist/aksara.cjs';
+import { LatinKeAksara } from '../dist/aksara.min.js';
 
 describe("hanacaraka", () => {
   test("Test Transliterator ha = ꦲ", () => {
