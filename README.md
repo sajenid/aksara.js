@@ -13,6 +13,14 @@ Tujuan dibuatnya pustaka ini transliterator supaya bisa lebih mudah untuk diguna
 
 ## Instalasi
 
+Instal dari registry npm
+
+```
+npm install @sajenid/aksara.js
+```
+
+Untuk Github Package Registry
+
 ```
 npm install @sajenid/aksara.js --registry https://npm.pkg.github.com/
 ```
